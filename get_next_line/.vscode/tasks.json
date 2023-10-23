@@ -33,5 +33,37 @@
 				"clear": false
 			},
 		},
+		{
+			"type": "cppbuild",
+			"label": "bonus",
+			"command": "/usr/bin/gcc",
+			"args": [
+				"-Wall",
+				"-Wextra",
+				"-Werror",
+				"-D",
+				"BUFFER_SIZE=10",
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}/main_bonus.c",
+				"${workspaceFolder}/project/get_next_line_bonus.c",
+				"${workspaceFolder}/project/get_next_line_utils_bonus.c",
+				"-o",
+				"get_next_line_bonus.out"
+			],
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "compiler: /usr/bin/gcc",
+			"presentation": {
+				"echo": true,
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"showReuseMessage": true,
+				"clear": false
+			},
+		},
 	]
 }
