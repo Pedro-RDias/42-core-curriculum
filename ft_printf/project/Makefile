@@ -12,7 +12,9 @@ RMFLAGS=-f
 
 # files
 
-SRC = ft_printf.c
+SRC = ft_printf.c \
+	ft_print_str.c \
+	ft_print_nbr.c \
 
 OBJ = $(SRC:.c=.o)
 
