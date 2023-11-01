@@ -9,6 +9,7 @@
 			"type": "cppdbg",
 			"request": "launch",
 			"program": "${workspaceFolder}/ft_printf.out",
+			"preLaunchTask": "make",
 			"args": [],
 			"stopAtEntry": true,
 			"cwd": "${workspaceFolder}",
