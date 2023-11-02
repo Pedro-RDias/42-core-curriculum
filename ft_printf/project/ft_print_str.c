@@ -6,7 +6,7 @@
 /*   By: pedribei <pedribei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 17:25:07 by pedribei          #+#    #+#             */
-/*   Updated: 2023/11/02 09:12:33 by pedribei         ###   ########.fr       */
+/*   Updated: 2023/11/02 09:45:58 by pedribei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ size_t	ft_strlen(const char *str)
 	if (!str || !*str)
 		return (0);
 	len = 0;
-	while (*str++)
+	while (str[len])
 		len++;
 	return (len);
 }

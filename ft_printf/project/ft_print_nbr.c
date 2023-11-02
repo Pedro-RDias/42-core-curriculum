@@ -6,7 +6,7 @@
 /*   By: pedribei <pedribei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 18:49:13 by pedribei          #+#    #+#             */
-/*   Updated: 2023/11/02 09:28:14 by pedribei         ###   ########.fr       */
+/*   Updated: 2023/11/02 10:35:07 by pedribei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_print_number(long long n)
 	if (n < 0)
 	{
 		ft_print_char('-');
-		return (1 + ft_print_base((unsigned long long)(n * -1), "0123456789"));
+		return (1 + ft_print_base((n * -1), "0123456789"));
 	}
 	return (ft_print_base(n, "0123456789"));
 }
