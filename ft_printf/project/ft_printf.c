@@ -6,7 +6,7 @@
 /*   By: pedribei <pedribei@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 16:10:18 by pedribei          #+#    #+#             */
-/*   Updated: 2023/11/01 20:52:08 by pedribei         ###   ########.fr       */
+/*   Updated: 2023/11/02 09:11:26 by pedribei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ int	ft_print_format(const char *format, va_list args)
 		return (ft_print_char(va_arg(args, int)));
 	else if (*format == 's')
 		return (ft_print_str(va_arg(args, char *)));
-	// else if (*format == 'p')
-	// 	return (ft_print_pointer(va_arg(args, unsigned long long)));
+	else if (*format == 'p')
+		return (ft_print_pointer(va_arg(args, unsigned long long)));
 	else if (*format == 'd' || *format == 'i')
 		return (ft_print_number(va_arg(args, int)));
 	else if (*format == 'u')
