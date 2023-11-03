@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_print_nbr.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: pedribei <pedribei@student.42porto.com>    +#+  +:+       +#+        */
+/*   By: pedribei <pedribei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 18:49:13 by pedribei          #+#    #+#             */
-/*   Updated: 2023/11/02 10:35:07 by pedribei         ###   ########.fr       */
+/*   Updated: 2023/11/03 09:27:44 by pedribei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int	ft_print_number(long long n)
 {
 	if (n < 0)
 	{
+		if (n == LLONG_MIN)
+			return (ft_print_str("-9223372036854775808"));
 		ft_print_char('-');
 		return (1 + ft_print_base((n * -1), "0123456789"));
 	}
@@ -27,7 +29,7 @@ int	ft_print_unsigned_number(unsigned long long n)
 	return (ft_print_base(n, "0123456789"));
 }
 
-int	ft_print_hex(unsigned int n, int uppercase)
+int	ft_print_hex(unsigned long long n, int uppercase)
 {
 	if (uppercase)
 		return (ft_print_base(n, "0123456789ABCDEF"));
