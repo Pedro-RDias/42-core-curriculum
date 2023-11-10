@@ -1,8 +1,8 @@
 # 42Porto Common Core
 
-<p float="left">
+<p>
 
-<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/black/pedribei?1337Badge=off&UM6P=off" alt="pedribei's 42 stats" style="float: right; margin: 0 0 0 20px;" /></a>
+<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/black/pedribei?1337Badge=off&UM6P=off" alt="pedribei's 42 stats" style="float: right; margin: 0 0 20px;" /></a>
 
 Hi 👋. In this repository, I document my journey through the challenging and rewarding curriculum at 42, a unique coding school where learning is a game and projects are the key to progression.
 
