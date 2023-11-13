@@ -1,12 +1,8 @@
 # 42Porto Common Core
 
-<p>
-
-<a href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/black/pedribei?1337Badge=off&UM6P=off" alt="pedribei's 42 stats" style="float: right; margin: 0 0 20px;" /></a>
+<a align="center" href="https://github.com/oakoudad/badge42"><img src="https://badge.mediaplus.ma/black/pedribei?1337Badge=off&UM6P=off" alt="pedribei's 42 stats" align="center" /></a>
 
 Hi 👋. In this repository, I document my journey through the challenging and rewarding curriculum at 42, a unique coding school where learning is a game and projects are the key to progression.
-
-</p>
 
 ## Common Core
 In the Common Core phase, I'm immersing myself in the fundamentals of programming by developing projects in C, C++, Linux, Bash, and more. This 18-month stage is the foundation of my technical skills, providing a solid understanding of coding principles.
